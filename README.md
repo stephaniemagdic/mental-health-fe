@@ -35,13 +35,17 @@
 + HeLP Network is an application inspired by a team members previous career in mental health when she saw a need for a platform to connect professionals across areas of expertise
 to share in and seek knowledge about important legal and ethical issues that guides the work helping professionals do.
 + HeLP Network's mission statement: Our mission is to connect expertise across speciality areas of public helping professions to ask and find questions to important legal and ethical concerns central to helping to support our communities and each other.
++ [Application Overview and Demonstration Video](https://www.youtube.com/watch?v=Y9FsAnUjnuU)
 
 + The HeLP Network application allows a user to:
+  - Login through [Linkedin OAuth](https://docs.microsoft.com/en-us/linkedin/shared/authentication/authentication)
   - Filter all questions/posts by keyword or tag to find answers to your legal and ethical questions
   - Post a new question and tag new questions with existing or new tags.
   - View a question by clicking on the cards read button to see full details of the post including post data, information on the user who posted the question, 
   the full question title and body, its responses and votes.
   - Comment on (answer) the questions posted to start or continue the discussion thread to help the community find important answers.
+  - Edit or delete your questions or responses.
+  - Flag content that does not meet community guidelines.
   - Upvote and downvote responses to rate accuracy of response to help guide fellow users to the most helpful feedback.
   - Upvote questions if you find them insightful and relavent. Downvote questions if you find them vague, misleading or unhelpful.
   
@@ -52,7 +56,9 @@ to share in and seek knowledge about important legal and ethical issues that gui
 
 + [Wireframe 1](https://github.com/mental-health-org/mental-health-fe/blob/56ed29cda04974f1bb95057e5b5048347bba2301/Helping%20Professionals%20Network%20WireFrame.jpg)
 + [Wireframe 2](https://github.com/mental-health-org/mental-health-fe/blob/691901418d00dadc188aa7787ba580c924a1ff6b/Screen%20Shot%202021-10-27%20at%2011.24.10%20AM.png)
-+ [Presentation](https://docs.google.com/presentation/d/10ge_ay2CDi2EQl2OXQGx2XlkOoEywuQl_h5EXHP6fXk/edit#slide=id.p)
++ [Informational Slides](https://docs.google.com/presentation/d/10ge_ay2CDi2EQl2OXQGx2XlkOoEywuQl_h5EXHP6fXk/edit#slide=id.p)
++ [Project Board](https://github.com/mental-health-org/mental-health-fe/projects/1)
++ [Project Issues](https://github.com/mental-health-org/mental-health-fe/issues)
 
 ---
 
@@ -72,6 +78,7 @@ to share in and seek knowledge about important legal and ethical issues that gui
 + Learn and use TypeScript to build and scale an application that is readable and maintainable, and provides error handling during build time.
 + Integrate continuous integration and continous deployment with Travis CI.
 + Develop JSON contract with backend team.
++ Implement LinkedIn's authorization code flow as part of the login process.
 
 
 ---
@@ -85,18 +92,15 @@ to share in and seek knowledge about important legal and ethical issues that gui
 ---
 
 
-## Future Features
-+ User login and authentication
+## Future Features 
+### [Issues provide greater detail](https://github.com/mental-health-org/mental-health-fe/issues)
 + User profile, connections
 + Bookmarking resources
-+ Credential validations - LinkedIn?
++ Credential validations
 + Interest groups
 + Share question link via email
 + Business advertising and/or publication subscription service
 + Progressive Web Application with push notifications
-+ Refactor with Context API
-+ Allow users to edit and delete their submitted questions and comments
-
 
 ---
 
