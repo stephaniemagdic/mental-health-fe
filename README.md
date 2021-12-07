@@ -93,7 +93,7 @@ to share in and seek knowledge about important legal and ethical issues that gui
 
 
 ## Future Features 
-### [Issues provide greater detail](https://github.com/mental-health-org/mental-health-fe/issues)
+##### [Visit Github Issues for more detail](https://github.com/mental-health-org/mental-health-fe/issues)
 + User profile, connections
 + Bookmarking resources
 + Credential validations
